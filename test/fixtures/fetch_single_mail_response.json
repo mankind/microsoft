@@ -1,0 +1,52 @@
+{
+	"@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('wizebee%40outlook.com')/messages/$entity",
+	"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB82yRL\"",
+	"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAADgHSRQAAAA=",
+	"createdDateTime": "2018-01-19T16:02:15Z",
+	"lastModifiedDateTime": "2018-05-03T16:39:24Z",
+	"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB82yRL",
+	"categories": [],
+	"receivedDateTime": "2018-01-19T16:02:17Z",
+	"sentDateTime": "2018-01-19T16:02:16Z",
+	"hasAttachments": false,
+	"internetMessageId": "<AM5PR1001MB1169FD43CD44D1CC3FF585BFBFEF0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+	"subject": "should return string",
+	"bodyPreview": "can I pass string?",
+	"importance": "normal",
+	"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA",
+	"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAISGboh3QK9Ikj2dAK-0aoU=",
+	"isDeliveryReceiptRequested": false,
+	"isReadReceiptRequested": false,
+	"isRead": true,
+	"isDraft": false,
+	"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAADgHSRQAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+	"inferenceClassification": "focused",
+	"body": {
+		"contentType": "text",
+		"content": "can I pass string?"
+	},
+	"sender": {
+		"emailAddress": {
+			"name": "Wizebee Wizebee",
+			"address": "wiz@outlook.com"
+		}
+	},
+	"from": {
+		"emailAddress": {
+			"name": "Wizebee Wizebee",
+			"address": "wiz@outlook.com"
+		}
+	},
+	"toRecipients": [{
+		"emailAddress": {
+			"name": "bill4@yahoo.com",
+			"address": "bill4@yahoo.com"
+		}
+	}],
+	"ccRecipients": [],
+	"bccRecipients": [],
+	"replyTo": [],
+	"flag": {
+		"flagStatus": "notFlagged"
+	}
+}

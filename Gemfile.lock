@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    microsoft (0.1.0.beta)
+      httparty (~> 0.16)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    hashdiff (0.3.7)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    minitest (5.11.3)
+    multi_xml (0.6.0)
+    public_suffix (3.0.2)
+    rake (12.3.1)
+    safe_yaml (1.0.4)
+    webmock (3.4.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  microsoft!
+  minitest (~> 5.0)
+  rake (~> 12.3)
+  webmock (~> 3.4.1)
+
+BUNDLED WITH
+   1.16.1

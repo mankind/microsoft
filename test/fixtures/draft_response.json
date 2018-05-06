@@ -1,0 +1,40 @@
+{
+	"@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('wizebee%40outlook.com')/messages/$entity",
+	"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB82yBg\"",
+	"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHzQ0hkAAAA=",
+	"createdDateTime": "2018-05-03T15:07:14Z",
+	"lastModifiedDateTime": "2018-05-03T15:07:14Z",
+	"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB82yBg",
+	"categories": [],
+	"receivedDateTime": "2018-05-03T15:07:14Z",
+	"sentDateTime": "2018-05-03T15:07:14Z",
+	"hasAttachments": false,
+	"internetMessageId": "<VI1PR1001MB1182C5E5FB88E1E16219C262BF870@VI1PR1001MB1182.EURPRD10.PROD.OUTLOOK.COM>",
+	"subject": "should return string",
+	"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console",
+	"importance": "normal",
+	"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA",
+	"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQANEnsz7jhMBHg1i7q7ZdsrM=",
+	"isDeliveryReceiptRequested": false,
+	"isReadReceiptRequested": false,
+	"isRead": true,
+	"isDraft": true,
+	"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHzQ0hkAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+	"inferenceClassification": "focused",
+	"body": {
+		"contentType": "html",
+		"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</body>\r\n</html>\r\n"
+	},
+	"toRecipients": [{
+		"emailAddress": {
+			"name": "bill4@yahoo.com",
+			"address": "bill4@yahoo.com"
+		}
+	}],
+	"ccRecipients": [],
+	"bccRecipients": [],
+	"replyTo": [],
+	"flag": {
+		"flagStatus": "notFlagged"
+	}
+}

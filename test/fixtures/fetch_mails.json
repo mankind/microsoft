@@ -1,0 +1,482 @@
+
+{
+	"@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('wizebee%40outlook.com')/messages",
+	"@odata.nextLink": "https://graph.microsoft.com/v1.0/me/messages?$skip=12",
+	"value": [{
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGIP\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeGUcAAAA=",
+		"createdDateTime": "2018-04-29T23:12:14Z",
+		"lastModifiedDateTime": "2018-04-29T23:12:14Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGIP",
+		"categories": [],
+		"receivedDateTime": "2018-04-29T23:12:14Z",
+		"sentDateTime": "2018-04-29T23:12:14Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB1169E57C54EB3F14D3FC9B7CBF830@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAGeyHZ58msxElIFgAkzC4WM=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": true,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeGUcAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</body>\r\n</html>\r\n"
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "bill4@yahoo.com",
+				"address": "bill4@yahoo.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGHl\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeIRUAAAA=",
+		"createdDateTime": "2018-04-29T23:04:50Z",
+		"lastModifiedDateTime": "2018-04-29T23:04:51Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGHl",
+		"categories": [],
+		"receivedDateTime": "2018-04-29T23:04:51Z",
+		"sentDateTime": "2018-04-29T23:04:47Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB11695B40834CC0871CE70D7DBF830@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "________________________________\r\nFrom: Wizebee Wizebee <wiz@outlook.com>\r\nSent: Saturday, April 28, 2018 10:53:10 PM\r\nTo: Wizebee Wizebee\r\nSubject: RE: should return string\r\n\r\n________________________________\r\nFrom: Wizebee Wizebee <wizebee@outlook.c",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeIRUAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:53:10 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:41:39 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGHf\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeHS0AAAA=",
+		"createdDateTime": "2018-04-29T23:04:46Z",
+		"lastModifiedDateTime": "2018-04-29T23:04:48Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGHf",
+		"categories": [],
+		"receivedDateTime": "2018-04-29T23:04:47Z",
+		"sentDateTime": "2018-04-29T23:04:47Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB11695B40834CC0871CE70D7DBF830@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "________________________________\r\nFrom: Wizebee Wizebee <wiz@outlook.com>\r\nSent: Saturday, April 28, 2018 10:53:10 PM\r\nTo: Wizebee Wizebee\r\nSubject: RE: should return string\r\n\r\n________________________________\r\nFrom: Wizebee Wizebee <wizebee@outlook.c",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHqeHS0AAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:53:10 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:41:39 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGGz\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJgAAAA=",
+		"createdDateTime": "2018-04-28T22:53:13Z",
+		"lastModifiedDateTime": "2018-04-29T23:04:46Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB6qGGz",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:53:14Z",
+		"sentDateTime": "2018-04-28T22:53:10Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB116972DF37E62A79D29E917FBF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "________________________________\r\nFrom: Wizebee Wizebee <wiz@outlook.com>\r\nSent: Saturday, April 28, 2018 10:41:39 PM\r\nTo: Wizebee Wizebee\r\nSubject: RE: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via\r\n  *   console\r\n_______________",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJgAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:41:39 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+aU\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDkAAAA=",
+		"createdDateTime": "2018-04-28T22:53:09Z",
+		"lastModifiedDateTime": "2018-04-28T22:53:11Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+aU",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:53:10Z",
+		"sentDateTime": "2018-04-28T22:53:10Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB116972DF37E62A79D29E917FBF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "________________________________\r\nFrom: Wizebee Wizebee <wiz@outlook.com>\r\nSent: Saturday, April 28, 2018 10:41:39 PM\r\nTo: Wizebee Wizebee\r\nSubject: RE: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via\r\n  *   console\r\n_______________",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDkAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee &lt;wiz@outlook.com&gt;<br>\r\n<b>Sent:</b> Saturday, April 28, 2018 10:41:39 PM<br>\r\n<b>To:</b> Wizebee Wizebee<br>\r\n<b>Subject:</b> RE: should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+Zu\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJcAAAA=",
+		"createdDateTime": "2018-04-28T22:41:42Z",
+		"lastModifiedDateTime": "2018-04-28T22:53:09Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+Zu",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:41:42Z",
+		"sentDateTime": "2018-04-28T22:41:39Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB1169D4EF7ED3B3C232BF5562BF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console\r\n________________________________\r\nFrom: Wizebee Wizebee\r\nSent: Friday, April 27, 2018 8:40:04 PM\r\nTo: bill4@yahoo.com\r\nSubject: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJcAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+TM\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDgAAAA=",
+		"createdDateTime": "2018-04-28T22:41:38Z",
+		"lastModifiedDateTime": "2018-04-28T22:41:40Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+TM",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:41:39Z",
+		"sentDateTime": "2018-04-28T22:41:39Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB1169D4EF7ED3B3C232BF5562BF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console\r\n________________________________\r\nFrom: Wizebee Wizebee\r\nSent: Friday, April 27, 2018 8:40:04 PM\r\nTo: bill4@yahoo.com\r\nSubject: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDgAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+Sd\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJYAAAA=",
+		"createdDateTime": "2018-04-28T22:40:46Z",
+		"lastModifiedDateTime": "2018-04-28T22:40:46Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+Sd",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:40:46Z",
+		"sentDateTime": "2018-04-28T22:40:42Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB116981B334ABB8A4C522D401BF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console\r\n________________________________\r\nFrom: Wizebee Wizebee\r\nSent: Friday, April 27, 2018 8:40:04 PM\r\nTo: bill4@yahoo.com\r\nSubject: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEMAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhhJYAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+SX\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDcAAAA=",
+		"createdDateTime": "2018-04-28T22:40:40Z",
+		"lastModifiedDateTime": "2018-04-28T22:40:44Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a+SX",
+		"categories": [],
+		"receivedDateTime": "2018-04-28T22:40:43Z",
+		"sentDateTime": "2018-04-28T22:40:42Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB116981B334ABB8A4C522D401BF8C0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "RE: should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console\r\n________________________________\r\nFrom: Wizebee Wizebee\r\nSent: Friday, April 27, 2018 8:40:04 PM\r\nTo: bill4@yahoo.com\r\nSubject: should return string\r\n\r\n\r\n  *   reply or send new email\r\n  *   via",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAM5vekH1MbxJgYPMajIzX_0=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": false,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEJAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhlDcAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console\r\n<hr tabindex=\"-1\" style=\"display:inline-block; width:98%\">\r\n<div id=\"divRplyFwdMsg\" dir=\"ltr\"><font face=\"Calibri, sans-serif\" color=\"#000000\" style=\"font-size:11pt\"><b>From:</b> Wizebee Wizebee<br>\r\n<b>Sent:</b> Friday, April 27, 2018 8:40:04 PM<br>\r\n<b>To:</b> bill4@yahoo.com<br>\r\n<b>Subject:</b> should return string</font>\r\n<div>&nbsp;</div>\r\n</div>\r\n</li></ul>\r\n<div>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"sender": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"from": {
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "Wizebee Wizebee",
+				"address": "wiz@outlook.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}, {
+		"@odata.etag": "W/\"CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a9dV\"",
+		"id": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhkFEAAAA=",
+		"createdDateTime": "2018-04-27T20:41:19Z",
+		"lastModifiedDateTime": "2018-04-27T20:41:19Z",
+		"changeKey": "CQAAABYAAADafhjCagexQJczqiL0v2dRAAB4a9dV",
+		"categories": [],
+		"receivedDateTime": "2018-04-27T20:41:19Z",
+		"sentDateTime": "2018-04-27T20:41:19Z",
+		"hasAttachments": false,
+		"internetMessageId": "<AM5PR1001MB1169E79053720751A689BFEDBF8D0@AM5PR1001MB1169.EURPRD10.PROD.OUTLOOK.COM>",
+		"subject": "should return string",
+		"bodyPreview": "  *   reply or send new email\r\n  *   via\r\n  *   console",
+		"importance": "normal",
+		"parentFolderId": "AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAuAAADT9b42TGiC0aVdJhhKHRI1AEA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA",
+		"conversationId": "AQQkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgAQAAt-kxaU1wdLnC5VzXbkkKI=",
+		"isDeliveryReceiptRequested": false,
+		"isReadReceiptRequested": false,
+		"isRead": true,
+		"isDraft": true,
+		"webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATNiZmYAZC0wYTc1LTgyOTYtMDACLTAwCgBGAAADT9b42TGiC0aVdJhhKHRI1AcA2n4YwmoHsUCXM6oi9L9nUQAAAgEPAAAA2n4YwmoHsUCXM6oi9L9nUQAAAHhhkFEAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+		"inferenceClassification": "focused",
+		"body": {
+			"contentType": "html",
+			"content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n</head>\r\n<body>\r\n<ul>\r\n<li>reply or send new email</li><li>via</li><li>console</li></ul>\r\n</body>\r\n</html>\r\n"
+		},
+		"toRecipients": [{
+			"emailAddress": {
+				"name": "bill4@yahoo.com",
+				"address": "bill4@yahoo.com"
+			}
+		}],
+		"ccRecipients": [],
+		"bccRecipients": [],
+		"replyTo": [],
+		"flag": {
+			"flagStatus": "notFlagged"
+		}
+	}]
+}

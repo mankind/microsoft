@@ -1,0 +1,10 @@
+{
+	"error": {
+		"code": "BadRequest",
+		"message": "Unable to read JSON request payload. Please ensure Content-Type header is set and payload is of valid JSON format.",
+		"innerError": {
+			"request-id": "67e9ca1d-5ba6-4e04-bbdc-7e1f94e3ff30",
+			"date": "2018-04-27T19:41:40"
+		}
+	}
+}
