@@ -2,8 +2,9 @@ module Microsoft
   module Outlook
     class Client
       include HTTParty
+      debug_output $stdout
       base_uri "https://graph.microsoft.com"
-      default_timeout 5   #times out after 5 seconds
+      default_timeout 6   #times out after 5 seconds
 
       attr_accessor :access_token, :refresh_token, :client_id, :client_secret
       
@@ -29,31 +30,21 @@ module Microsoft
         }
       end
 
-      def refresh_access_token
-        host = 'https://login.microsoftonline.com/common/oauth2/v2.0/token'
-        options = {
-          body: {
-            client_id: client_id,
-            client_secret: client_secret,
-            refresh_token: refresh_token,
-            grant_type: 'refresh_token'
-          },
-          headers: {
-            'Content-Type' => 'application/x-www-form-urlencoded'
-          }
-        }
-        self.class.post(host, options)
+      def refresh_access_token!
+        oauth = OmniAuth::Strategies::MicrosoftGraph.new(nil, ENV['MICROSOFT_CLIENT_ID'], ENV['MICROSOFT_CLIENT_SECRET']  )
+        token = OAuth2::AccessToken.new(oauth.client, access_token, {refresh_token: refresh_token})
+        new_token = token.refresh!
       end
 
       def fetch_mails
         result = self.class.get(api_version("messages"), headers: headers)
-
+        retry_again
         fail_or_return_response_body(result, true)
-        
       end
 
       def get_single_mail(mail_id)
         result = self.class.get(api_version("messages/#{mail_id}"), headers: headers)
+        retry_again
         fail_or_return_response_body(result)
       end
 
@@ -63,6 +54,8 @@ module Microsoft
                   :body => email_message,
                   :headers => headers
                 )
+
+        retry_again
         fail_or_return_response_body(result)
       end
 
@@ -71,7 +64,9 @@ module Microsoft
           api_version("messages"), 
            :body => email_message,
            :headers => headers
-         )
+        )
+
+        retry_again
         fail_or_return_response_body(result)
       end
 
@@ -81,6 +76,8 @@ module Microsoft
           :body => email_message,
           :headers => headers
         ) 
+
+        retry_again
         fail_or_return_response_body(result)      
       end
 
@@ -117,6 +114,12 @@ module Microsoft
           Microsoft::Error.new(message = result)
         end
       end
+
+      def retry_again
+        rescue Net::OpenTimeout
+          sleep 2
+          retry
+      end 
 
     end
   end

@@ -3,15 +3,15 @@ module Microsoft
   class Error <  StandardError 
     attr_reader :code, :error_hash
 
-    #Raised when Microsoft returns a string code
+    # Raised when Microsoft returns a string code
     ClientError = Class.new(self)
 
-    #Microsoft raises this when it is unable to read JSON request payload
-    #that means the json is of the wrong format eg when reply json is not
-    #in the form "{comment: 'my reply'}"
+    # Microsoft raises this when it is unable to read JSON request payload
+    # that means the json is of the wrong format eg when reply json is not
+    # in the form "{comment: 'my reply'}"
     BadRequest = Class.new(ClientError)
 
-    #When access_token is invalid, Microsoft raises CompactToken validation failed
+    # When access_token is invalid, Microsoft raises CompactToken validation failed
     Unauthorized = Class.new(ClientError)
 
     # Raised when Microsoft returns the HTTP status code 403
@@ -80,8 +80,6 @@ module Microsoft
         new(message, http_status_code)
       end
     end
-
   end
-  
 end
 
